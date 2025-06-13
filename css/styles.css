@@ -121,9 +121,10 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-display: flex;
+ display: inline-block; 
 align-items: center;
-margin-right: 76px;    
+margin-right: 76px;
+    margin-bottom: 16px;
 }
 
 .nav-link-list {
@@ -342,6 +343,7 @@ letter-spacing: 0.02em;
 /* Footer styles */
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0 ;
 }
 
 .footer-container {
