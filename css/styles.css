@@ -186,7 +186,8 @@ color: #404BBF;
 }
 
 .hero-wrap {
-padding: 188px 0;
+ padding-top: 188px; 
+ padding-bottom: 188px;
 }
 
 .hero-title-class {
@@ -253,14 +254,14 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 max-width: 412px;
 margin: 0 auto;
-margin-bottom: 28px;
+margin-bottom: 72px;
 text-align: center;
 text-transform: capitalize;
 }
 
 .our-team-list {
     display: flex;
-    gap: 18px;
+    gap: 24px;
 }
 
 .our-team-item {
@@ -269,6 +270,8 @@ text-transform: capitalize;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    width: calc((100% - 3 * 24px) / 4);
+     border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-title-img {
