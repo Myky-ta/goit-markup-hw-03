@@ -3,9 +3,11 @@ body {
     color: #434455 ;
     font-family: "Roboto", sans-serif;
     background-color: #FFF;
+
 }
 
-.visually-hidden {
+
+    .visually-hidden {
 position: absolute;
 width: 1px;
 height: 1px;
@@ -186,8 +188,7 @@ color: #404BBF;
 }
 
 .hero-wrap {
- padding-top: 188px; 
- padding-bottom: 188px;
+padding: 188px 0;
 }
 
 .hero-title-class {
@@ -210,6 +211,8 @@ background-color: #FFFFFF;
 }
 
 
+
+
 .our-advantages-list {
     background-color: #FFFFFF;
     display: flex;
@@ -229,7 +232,7 @@ font-size: 20px;
 }
 
 .our-advantages-item {
-flex-basis: calc((100% - 3 * 24px) / 4) ;
+ width: calc((100% - 3 * 24px) / 4);
 }
 
 .our-advantages-paragraph {
@@ -254,14 +257,14 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 max-width: 412px;
 margin: 0 auto;
-margin-bottom: 72px;
+margin-bottom: 28px;
 text-align: center;
 text-transform: capitalize;
 }
 
 .our-team-list {
     display: flex;
-    gap: 24px;
+    gap: 18px;
 }
 
 .our-team-item {
@@ -270,8 +273,10 @@ text-transform: capitalize;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: calc((100% - 3 * 24px) / 4);
-     border-radius: 0px 0px 4px 4px;
+}
+
+.team-info {
+    padding: 32px 0;
 }
 
 .our-team-title-img {
@@ -280,6 +285,7 @@ text-transform: capitalize;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px ;
     text-align: center;
 text-transform: capitalize;
 
@@ -297,7 +303,8 @@ text-transform: capitalize;
 /* Our portfolio section */
 .our-portfolio-section {
     background-color: #FFFFFF;
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-portfolio-title {
@@ -308,24 +315,29 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 max-width: 412px;
 margin: 0 auto;
-margin-bottom: 28px;
+margin-bottom: 72px;
 margin-top: 16px;
 text-align: center;
 text-transform: capitalize;
-
 }
 
 .our-portfolio-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 12px;
+    row-gap: 48px;
 }
 
 .our-portfolio-item {
     background-color: #FFFFFF;
 width: calc((100% - 24 * 2) / 3);
 } 
+
+.our-portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    margin-bottom: 8px;
+}
 
 .our-portfolio-title-text {
     color: #2e2f42;
