@@ -5,6 +5,19 @@ body {
     background-color: #FFF;
 }
 
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
 h1,h2,h3,h4,h5,h6,p {
     margin-bottom: 0;
     margin-top: 0;
@@ -195,19 +208,6 @@ background-color: #FFFFFF;
  padding: 120px 0;
 }
 
-.visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
-}
-
 
 .our-advantages-list {
     background-color: #FFFFFF;
@@ -228,7 +228,7 @@ font-size: 20px;
 }
 
 .our-advantages-item {
-width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 3 * 24px) / 4) ;
 }
 
 .our-advantages-paragraph {
